@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Panadol 500mg", "batch": "PN2024A", "quantity": 8, "threshold": 20, "expiry_date": "2026-10-15", "price": 25, "avg_daily_sales": 6},
+  {"id": 2, "name": "Augmentin 625mg", "batch": "AG2024B", "quantity": 45, "threshold": 15, "expiry_date": "2027-03-20", "price": 350, "avg_daily_sales": 3},
+  {"id": 3, "name": "Brufen 400mg", "batch": "BR2024C", "quantity": 5, "threshold": 25, "expiry_date": "2026-09-30", "price": 40, "avg_daily_sales": 8},
+  {"id": 4, "name": "Disprin", "batch": "DS2023D", "quantity": 120, "threshold": 30, "expiry_date": "2026-11-05", "price": 15, "avg_daily_sales": 4},
+  {"id": 5, "name": "Amoxil 500mg", "batch": "AM2024E", "quantity": 60, "threshold": 20, "expiry_date": "2027-06-10", "price": 180, "avg_daily_sales": 5},
+  {"id": 6, "name": "Cough Syrup (Tixylix)", "batch": "TX2024F", "quantity": 12, "threshold": 15, "expiry_date": "2026-09-25", "price": 220, "avg_daily_sales": 2},
+  {"id": 7, "name": "Flagyl 400mg", "batch": "FL2024G", "quantity": 3, "threshold": 20, "expiry_date": "2027-01-15", "price": 60, "avg_daily_sales": 4},
+  {"id": 8, "name": "Insulin (Humalog)", "batch": "IN2024H", "quantity": 18, "threshold": 10, "expiry_date": "2026-09-20", "price": 1200, "avg_daily_sales": 1},
+  {"id": 9, "name": "Vitamin D3", "batch": "VD2024I", "quantity": 95, "threshold": 25, "expiry_date": "2027-08-01", "price": 90, "avg_daily_sales": 3},
+  {"id": 10, "name": "ORS Sachets", "batch": "OR2024J", "quantity": 200, "threshold": 50, "expiry_date": "2027-12-01", "price": 10, "avg_daily_sales": 10}
+]
