@@ -238,7 +238,7 @@ elif page == "📷 Scan Medicine Photo":
                 b64_img = base64.b64encode(img_file.read()).decode("utf-8")
                 try:
                     response = client.chat.completions.create(
-                        model="llama-3.2-90b-vision-preview",
+                        model="openai/gpt-oss-120b",
                         messages=[{
                             "role": "user",
                             "content": [
