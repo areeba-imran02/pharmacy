@@ -122,7 +122,7 @@ page = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Powered by Groq API (Llama 3.3 + Vision)")
+st.sidebar.caption("Powered by Groq API (openai/gpt-oss-120b)")
 
 # ---------------- HEADER ----------------
 st.markdown('<div class="app-header">Smart Pharmacy Stock Assistant</div>', unsafe_allow_html=True)
@@ -307,7 +307,7 @@ INVENTORY:
             with st.spinner("Checking stock..."):
                 try:
                     resp = client.chat.completions.create(
-                        model="llama-3.3-70b-versatile",
+                        model="openai/gpt-oss-120b",
                         messages=[{"role": "system", "content": system_prompt}] + st.session_state.chat_history,
                         temperature=0.3,
                         max_tokens=500
